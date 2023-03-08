@@ -16,7 +16,6 @@ public class UIManager : MonoBehaviour
     [SerializeField]
     private GameObject registrationPanel;
 
-    // Husk at tjek efter her inden.
     public Text ScoreText;
     public Text HealthText;
     #endregion
