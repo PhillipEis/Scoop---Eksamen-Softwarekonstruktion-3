@@ -30,6 +30,7 @@ public class FirestoreManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        DontDestroyOnLoad(this.gameObject);
     }
     #endregion
 
